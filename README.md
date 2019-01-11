@@ -31,6 +31,7 @@ Windows Registry Editor Version 5.00
 for other lumia you should  calc the value by yourself.
 
 DisplayViewableWidth = RESOLUTION_X / 816 *  RESOLUTION_X
+
 DisplayViewableHeight = RESOLUTION_Y / 1394 *  RESOLUTION_Y
 
 816/1394 is the adjust value which was founded in stock driver.
