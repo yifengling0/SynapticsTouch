@@ -45,7 +45,7 @@ TOUCH_SCREEN_PROPERTIES gDefaultProperties =
     0,
     0,
     0,
-    0,
+	0,
     TOUCH_DEFAULT_RESOLUTION_X,
     TOUCH_DEFAULT_RESOLUTION_Y,
     0,

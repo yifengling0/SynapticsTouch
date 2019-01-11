@@ -683,7 +683,7 @@ RmiConfigureFunctions(
 	{
 		ControllerContext->Data1Offset = data_offset;
 		ControllerContext->MaxFingers = item->NumSubPackets;
-		if ((ControllerContext->MaxFingers * F12_DATA1_BYTES_PER_OBJ) > 
+		if ((size_t)(ControllerContext->MaxFingers * F12_DATA1_BYTES_PER_OBJ) > 
 			(ControllerContext->PacketSize - ControllerContext->Data1Offset))
 		{
 			ControllerContext->MaxFingers = 
