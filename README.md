@@ -8,10 +8,10 @@ It demonstrates how to write a HID miniport driver for the Synaptics 3200 touch 
 lumia1520 & 930 tested。
 
 
-[INSTALLTION]
+# [INSTALLTION]
 replace the stock one and fix the reg with next values.
 
-Lumia930
+# Lumia930
 
 Windows Registry Editor Version 5.00
 
@@ -19,7 +19,7 @@ Windows Registry Editor Version 5.00
 "DisplayViewableHeight"=dword:00000598
 "DisplayViewableWidth"=dword:00000a49
 
-Lumia1520
+# Lumia1520
 
 Windows Registry Editor Version 5.00
 
@@ -28,10 +28,11 @@ Windows Registry Editor Version 5.00
 "DisplayViewableWidth"=dword:00000a54
 
 
-for other lumia you should  calc the value by yourself.
+# Notice: For other lumias you should  calc the adjust value by yourself.
 
 DisplayViewableWidth = RESOLUTION_X / 816 *  RESOLUTION_X
 
 DisplayViewableHeight = RESOLUTION_Y / 1394 *  RESOLUTION_Y
 
-816/1394 is the adjust value which was founded in stock driver.
+816/1394 is the value which was founded in stock driver. 
+seem all the same.
