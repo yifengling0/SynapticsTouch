@@ -36,4 +36,4 @@ DisplayViewableWidth = RESOLUTION_X / 816 *  RESOLUTION_X
 DisplayViewableHeight = RESOLUTION_Y / 1394 *  RESOLUTION_Y
 
 816/1394 is the value which was founded in stock driver. 
-seem all the same.
+
