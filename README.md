@@ -9,7 +9,8 @@ lumia1520 & 930 tested。
 
 
 # [INSTALLTION]
-replace the stock one and fix the reg with next values.
+replace the stock one which on the \windows\system32\drivers 
+import the reg file.
 
 # Lumia930
 
