@@ -17,8 +17,8 @@ import the reg file.
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\RTSYSTEM\TOUCH\SCREENPROPERTIES]
-"DisplayViewableHeight"=dword:00000598
-"DisplayViewableWidth"=dword:00000a49
+"DisplayViewableHeight"=dword:000005aa
+"DisplayViewableWidth"=dword:00000a4d
 
 # Lumia1520
 
